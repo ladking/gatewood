@@ -1,0 +1,61 @@
+#map {
+    height: 100%;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    margin: 0;
+    padding: 10px;
+    background-color: lightgray;
+  }
+  #gatewood{
+    color:green;
+    font-weight: 600;
+
+  }
+  #map{
+    height: 80%;
+    width: 60%;
+    border: 5px solid green
+  }
+  .single{
+    padding: 10px;
+    width: 40%;
+  }
+  .box{
+    display: inline-flex;
+    height: 80vh;
+    width: 100%;
+  }
+  #array{
+    background-color: rgba(2, 2, 2, 0.952);
+    padding: 5px;
+    color: white;
+    overflow-wrap: break-word;
+  }
+  #address {
+    color:"red";
+    padding: 10px;
+    background-color: rgba(109, 106, 106, 0.2);
+    border: 2px solid black;
+    overflow-wrap: break-word;
+  }
+  #multipleChoices{
+    overflow-wrap: break-word;
+  }
+
+  @media screen and (max-width:600px){
+    .box{
+      display: block;
+      height: 80vh;
+      width: 100%;
+    }
+    #map{
+      height: 80%;
+      width: 100%;
+      border: 5px solid green
+    }
+    .single{
+      width: 100%;
+      padding: 5px;
+    }
+  }
